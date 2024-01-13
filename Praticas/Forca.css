@@ -1,0 +1,21 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.hangman-container {
+    width: 200px;
+    height: 200px;
+    background: url('hangman.png') center/contain no-repeat;
+    margin: 20px auto;
+}
+
+#word-container {
+    font-size: 24px;
+    margin: 20px;
+}
+
+#wrong-letters-container {
+    color: red;
+    margin: 10px;
+}
