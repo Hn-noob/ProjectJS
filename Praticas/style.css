@@ -7,6 +7,10 @@ body {
     align-items: center;
 }
 
+h1 {
+    color: #f1eeee;
+}
+
 .sidebar {
     margin-bottom: absolute;
     color: #333;
@@ -76,4 +80,16 @@ body {
     visibility: visible;
     transform: translateX(0%);
     transition: transform 500ms;
+}
+
+.article {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%; /* Define a largura para ocupar 100% do contêiner pai */
+    padding: 10px; /* Adiciona algum preenchimento para melhorar a aparência */
+    box-sizing: border-box; /* Garante que o preenchimento não afete a largura total */
+    margin-bottom: 10px; /* Adiciona um espaço entre os inputs */
+    border-radius: 24px;
 }
