@@ -8,7 +8,7 @@ function addTask() {
         checkbox.type = "checkbox";
         var taskText = document.createElement("span");
         taskText.innerText = taskInput.value;
-        var deleteButton = document.createElement("button");
+        deleteButton = document.createElement("button");
         deleteButton.innerText = "Remover";
         deleteButton.onclick = function() {
             taskList.removeChild(li);
